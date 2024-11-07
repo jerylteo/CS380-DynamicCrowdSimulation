@@ -1,0 +1,54 @@
+Research Project Proposal - Unity
+
+Different kind of real life behavior
+
+Agents - Child, Parent, Tourist (Different shape/size)
+Emotions - Happy, Disgusted, Angry, Idle
+Icons - Water fountain, Café, Playground, Flower Garden, Toilet
+
+Start - Enter park from 4 directions (top, bottom, left, right)
+
+Child
+- Follow parent
+- If flower garden, either happy
+- If playground, happy playing, get hungry after
+- If water fountain, idle with parent
+- If cafe, happy if hungry, else idle
+- If toilet, disgusted using toilet
+- Angry if never go playground
+- Exit
+
+Parent
+- Randomly walk around the park, randomize max number of locations
+- If flower garden, either disgusted by insects or happy walking at flower garden
+- If playground, either play with child or watch over child
+- If water fountain, idle around at an empty spot
+- If cafe and child hungry, queue for food, else leave cafe.
+- If toilet, send child to toilet.
+- Exit
+
+Tourist
+- Go water fountain first
+- Randomly explore the park
+- Exit
+
+Café
+- Need to queue for food/drinks
+- See if crowded or not
+- Either like the food or not
+
+Toilet
+- Periodically send agent to the toilet to relieve their needs.
+- Disgusted when near here?
+- Relaxed / Disgusted after using
+
+End - Exit park from the nearest exit
+
+Explain why crowd simulation
+
+Research about crowd simulation, how to simulate a city of AI
+Best path-finding for efficiency
+
+https://www.gameaipro.com/
+https://emoji-maker.com/emoji_copy
+https://www.freepik.com/free-photos-vectors/emoji
